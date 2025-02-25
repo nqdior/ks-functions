@@ -1,6 +1,7 @@
 import azure.functions as func
 import logging
 
+# 更新後だぜ！！！！！！！！！！！！！！！！！！！！！！！！！！
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
 @app.route(route="http_trigger")
